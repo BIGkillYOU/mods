@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="adventureeconomy"
+version="0.1.0"
+displayName="Adventure Economy"
+description='''Medieval Fantasy MMORPG economy foundation for Minecraft 1.20.1 Forge.'''
+[[dependencies.adventureeconomy]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.28,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.adventureeconomy]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
